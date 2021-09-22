@@ -63,6 +63,22 @@ Here is an example of a long one:
     The title element is a required child in most situations, but when a higher-level protocol provides title information, e.g. in the Subject line of an email when HTML is used as an email authoring format, the title element can be omitted.
 ---
 
+### Table of contents (for authors):
+
+| Name  | Value |
+|---|---|
+| [[wai-aria-1.1]](https://w3c.github.io/html-aam/#bib-wai-aria-1.1)  |  No corresponding role |
+| [MSAA + IAccessible2](http://accessibility.linuxfoundation.org/a11yspecs/ia2/docs/html/)  | Not mapped  |
+| [UIA](https://docs.microsoft.com/en-us/previous-versions//ms726297(v=vs.85)?redirectedfrom=MSDN) | Not mapped |
+| [ATK](https://gnome.pages.gitlab.gnome.org/atk/) | Not mapped|
+| [AX](https://developer.apple.com/documentation/appkit/nsaccessibility) | Not mapped |
+
+### Table of contents (for implementors):
+
+| HTML element  | Implicit ARIA semantics (explicitly assigning these in markup is NOT RECOMMENDED) | ARIA roles, states and properties which MAY be used |
+|---|---|---|
+| `head`  | [No corresponding role](https://w3c.github.io/html-aria/#dfn-no-corresponding-role)  |  No `role` or `aria-*` attributes |
+
 #### Default structure:
 
 ```html
